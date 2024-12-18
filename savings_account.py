@@ -30,6 +30,7 @@ def create_savings_account(balance, interest_rate, months):
     # ADD YOUR CODE HERE
     Updated_balance = Interest + balance 
     Account_Number.set_balance(Updated_balance)
+    Account_Number.set_interest(Interest)
     
     return Updated_balance,Interest
 
